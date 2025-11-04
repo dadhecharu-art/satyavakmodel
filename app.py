@@ -165,4 +165,4 @@ if __name__ == '__main__':
     # Flask will automatically use the PORT environment variable if running in a cloud environment
     port = int(os.environ.get('PORT', 5000))
     # Note: Use 0.0.0.0 for external access in deployment
-    app.run(host='127.0.0.1', port=port, debug=True, threaded=False)
+    app.run(host='0.0.0.0', port=port, debug=True, threaded=False)
