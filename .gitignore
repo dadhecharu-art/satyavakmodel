@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .env
 flask_env/
+# Ignore large model files
+legalbert_finetuned_copy/
+legalbert_finetuned_copy.zip
